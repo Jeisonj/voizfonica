@@ -1,0 +1,72 @@
+.login {
+  min-height: 100vh;
+}
+
+
+.login-heading {
+  font-weight: 300;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+@media (max-width: 768px)
+
+{
+
+  section .imgbx
+
+  {
+
+      position: absolute;
+
+      top: 0;
+
+      left: 0;
+
+      width: 100%;
+
+      height: 100%;
+
+  }
+  section .contentbx
+
+  {
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      width: 100%;
+
+      height: 100%;
+
+      z-index: 1;
+
+  }
+  section .contentbx .formbx
+
+  {
+
+      width: 100%;
+
+      padding: 40px;
+
+      background: rgba(255, 255, 255, 0.7);
+
+      margin: 50px;
+
+  }
+
+}
+#bg{
+background: url('../../assets/images/login.png') no-repeat center center fixed; 
+/* -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover; */
+background-size: cover;
+}

@@ -1,0 +1,36 @@
+<app-header></app-header>
+<body>
+  <div class="container" >
+        
+    <h1  class="text-uppercase">Dongle plans</h1>
+    <h4 class="subtext">All new Dongle plans<br><div class="in">Voizfonica</div></h4> 
+<div *ngFor="let admin of resp ;" style=" margin-top: 0px;">
+  <div class="card" >
+    <div class="box">
+    <div  class="content" >
+      <!-- <h2>01</h2> -->
+      <h3><i class="bi bi-currency-rupee"></i>{{admin.price}}</h3>
+      <h4>{{admin.validity}} </h4>
+      <p><i class="bi bi-telephone-fill"></i>{{admin.commonOffers}}<br>
+      <i class="bi bi-chat-fill"></i>{{admin.smsOffers}}<br>
+      <i class="bi bi-globe"></i>{{admin.istOffers}}<br>
+      <i class="bi bi-arrow-down-up"></i>{{admin.dataOffers}}</p>
+      <a href="#">Get Plan</a>
+    </div>
+    </div>
+  </div>   
+</div>
+</div>
+
+    
+    <div>
+    <script type="text/javascript" src="../../assets/vanilla-tilt.js"></script>
+    <script>VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 400,
+      // glare: true,
+      // "max-glare": 1,
+    });</script>
+  </div>
+  </body>
+  

@@ -1,0 +1,85 @@
+*{
+    margin: 1% 0% 0% 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn
+{
+    /* margin-top: 40px; */
+    background: royalblue;
+    padding: 12px;
+    text-align: center;
+    color: #f8f8f8;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+/* ******************* for prepaid,postpaid and doongle icons */
+#prepaid-main
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+/* .social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+} */
+.container1 a{
+    background-color:#eceeef;
+    color:#09129c;
+    font-size:35px; 
+    display:inline-block;
+    line-height:44px;
+    width:67px;
+    height:67px;
+    text-align:center;
+    padding-top: 4%;
+    margin-left:8px;
+    border-radius:100%;
+    /* transition: ease-in-out; */
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear;
+    background-color: hsla(231, 100%, 73%, 0.603) !important;
+    backdrop-filter: saturate(50%) blur(0.5px);
+  }
+  .container1 a:active,.container1 a:focus,.container1 a:hover
+  {
+    color:rgb(30, 8, 230);
+    background-color:#1789d4
+  }
+  /* .container1 .size-sm a
+  {
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+  } */
+  .container1 .left .prepaid:hover
+  {
+    background-color:#144bc2;
+    transform:scale(2.5);
+  }
+  .container1 .middle .postpaid:hover
+  {
+    background-color:#00aced;
+    transform:scale(2.5);
+  }
+  .container1 .right .doongle:hover
+  {
+    background-color:#007bb6;
+    transform:scale(2.5);
+  }
+  @media screen and (min-width: 400px)
+  {
+      
+  }

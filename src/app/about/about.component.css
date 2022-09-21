@@ -1,0 +1,45 @@
+
+    /* ***************header nav template**************** */
+    .header ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; 
+        color:#a65bf1 !important;
+        background: linear-gradient(45deg,#2a48cf,#e3ddf8);    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        /* background-image: radial-gradient(650px circle at 0% 0%,
+            hsl(219, 92%, 52%) 15%,
+            hsl(219, 92%, 52%) 15%,
+            hsl(219, 92%, 52%) 15%,
+            hsl(219, 92%, 52%) 15%,
+            hsl(219, 92%, 52%) 15%,
+            transparent 100%),
+              radial-gradient(1250px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(219, 76%, 39%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%) !important;    */
+      }
+      .header li {
+        float: left;
+      }
+      .header p{
+        float: right;
+      }
+      .header  a{
+        display: block;
+        color:#ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration:none ;
+        font-weight: 700;
+  
+      }
+      .header a:hover {
+        background-color: hsla(0, 0%, 100%, 0.507) !important;
+      }
+      .lni{
+          color: blue;
+      }
+    

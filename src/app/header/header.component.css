@@ -1,0 +1,12 @@
+.navbar{
+    background: linear-gradient(270deg,#2a48cf,#e3ddf8);    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    backdrop-filter: saturate(150%) blur(4px);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width:25%;
+    /* padding-left: 2%; */
+}
+.dropdown-menu .dropdown-item {
+    color: black;
+}
